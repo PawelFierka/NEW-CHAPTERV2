@@ -28,9 +28,9 @@ for (const fruit of array) {
 }
 
 // 5. For...in Loop - Iterates over enumerable properties of an object
-const object = {a: 1, b: 2, c: 3};
-for (const key in object) {
-    console.log("For...in Loop key: " + key + ", value: " + object[key]);
+const objekt = {a: 1, b: 2, c: 3};
+for (const key in objekt) {
+    console.log("For...in Loop key: " + key + ", value: " + objekt[key]);
 }
 
 // 6. Break statement example
@@ -135,7 +135,15 @@ const hasEven = [1, 2, 3, 4].some(num => {
 console.log("Array has even number: ", hasEven);
 
 
+
+
+
+
+
 //advanced examples - some
+
+
+
 
 // 1. For Loop - Sum only even numbers in an array
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
